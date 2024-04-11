@@ -32,3 +32,7 @@ class Control:
     
     def pow(self, a, b):
          return pow(a,b)
+    
+     try:
+            if(b==0):
+                raise Exception("Divisor Error")
